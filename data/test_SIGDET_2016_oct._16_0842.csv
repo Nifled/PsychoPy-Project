@@ -1,0 +1,4 @@
+trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,corAns,Stim,End.keys,End.rt,key_resp_2.keys,key_resp_2.rt,key_resp_3.keys,key_resp_3.rt,date,frameRate,expName,session,participant,
+,,,,,,return,0.985690715897,,,,,2016_oct._16_0842,60.1796890996,SIGDET,001,test,
+,,,,,,,,return,1.06550367741,,,2016_oct._16_0842,60.1796890996,SIGDET,001,test,
+,,,,,,,,,,return,0.866164573003,2016_oct._16_0842,60.1796890996,SIGDET,001,test,

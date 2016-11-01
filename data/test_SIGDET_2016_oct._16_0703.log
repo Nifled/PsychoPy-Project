@@ -1,0 +1,33 @@
+16.1121 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1799E110>, name='window1', pos=[0, 0], screen=0, size=array([1366,  768]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.1122 	EXP 	window1: recordFrameIntervals = False
+16.2766 	EXP 	window1: recordFrameIntervals = True
+16.4608 	EXP 	window1: recordFrameIntervals = False
+16.7449 	EXP 	Created Instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='Instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+16.7585 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.07, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0. , -0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Please press a button  to continue.', units=u'norm', win=Window(...), wrapWidth=1)
+16.8274 	EXP 	Created Instrucciones = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.08, italic=False, name='Instrucciones', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+16.8301 	EXP 	Created LongMouth = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=unicode(...), interpolate=True, mask=None, maskParams=None, name='LongMouth', opacity=1.0, ori=0.0, pos=array([-0.5, -0.6]), size=array([ 0.18740849,  0.33333333]), texRes=128, units=u'norm', win=Window(...))
+16.8322 	EXP 	Created SmallMouth = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image=unicode(...), interpolate=True, mask=None, maskParams=None, name='SmallMouth', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.6]), size=array([ 0.18740849,  0.33333333]), texRes=128, units=u'norm', win=Window(...))
+16.8430 	EXP 	Created BigM = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=1, italic=False, name='BigM', opacity=1.0, ori=0, pos=array([-10.,  -9.]), rgb=array([ 255.,  255.,  255.]), text=u"Big Mouth 'v'", units='cm', win=Window(...), wrapWidth=15.0)
+16.8493 	EXP 	Created LittleM = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.09, italic=False, name='LittleM', opacity=1.0, ori=0, pos=array([ 0.5, -0.8]), rgb=array([ 255.,  255.,  255.]), text=u"Little Mouth 'm'", units=u'norm', win=Window(...), wrapWidth=1)
+16.8566 	EXP 	Created Continue = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.07, italic=False, name='Continue', opacity=1.0, ori=0, pos=array([ 0. , -0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Please press a button  to continue.', units=u'norm', win=Window(...), wrapWidth=1)
+16.9280 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.9357 	EXP 	Instructions: autoDraw = True
+16.9357 	EXP 	text: autoDraw = True
+18.3742 	DATA 	Keypress: return
+18.3895 	EXP 	Instructions: autoDraw = False
+18.3895 	EXP 	text: autoDraw = False
+18.3895 	EXP 	Instrucciones: autoDraw = True
+18.3895 	EXP 	LongMouth: autoDraw = True
+18.3895 	EXP 	SmallMouth: autoDraw = True
+18.3895 	EXP 	BigM: autoDraw = True
+18.3895 	EXP 	LittleM: autoDraw = True
+18.3895 	EXP 	Continue: autoDraw = True
+20.3561 	DATA 	Keypress: return
+20.3710 	EXP 	Instrucciones: autoDraw = False
+20.3710 	EXP 	LongMouth: autoDraw = False
+20.3710 	EXP 	SmallMouth: autoDraw = False
+20.3710 	EXP 	BigM: autoDraw = False
+20.3710 	EXP 	LittleM: autoDraw = False
+20.3710 	EXP 	Continue: autoDraw = False
+20.3710 	EXP 	text_2: autoDraw = True
+26.0184 	DATA 	Keypress: escape

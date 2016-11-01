@@ -1,0 +1,16 @@
+24.2015 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x17EE8E50>, name='window1', pos=[0, 0], screen=0, size=array([1366,  768]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+24.2016 	EXP 	window1: recordFrameIntervals = False
+24.3653 	EXP 	window1: recordFrameIntervals = True
+24.5516 	EXP 	window1: recordFrameIntervals = False
+25.2068 	EXP 	Created Instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='Instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+25.3454 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+25.3507 	EXP 	Created LongMouth = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=unicode(...), interpolate=True, mask=None, maskParams=None, name='LongMouth', opacity=1.0, ori=0.0, pos=array([ 0.1,  0.1]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+25.3541 	EXP 	Created SmallMouth = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image=unicode(...), interpolate=True, mask=None, maskParams=None, name='SmallMouth', opacity=1.0, ori=0.0, pos=array([ 0.1,  0.2]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+25.3647 	EXP 	Instructions: autoDraw = True
+26.6959 	DATA 	Keypress: return
+26.7100 	EXP 	Instructions: autoDraw = False
+26.7100 	EXP 	text: autoDraw = True
+26.7100 	EXP 	LongMouth: autoDraw = True
+26.7100 	EXP 	SmallMouth: autoDraw = True
+51.8070 	DATA 	Keypress: escape
+51.8439 	EXP 	window1: mouseVisible = True

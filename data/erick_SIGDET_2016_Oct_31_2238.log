@@ -1,0 +1,104 @@
+12.3966 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x18344E30>, name='window1', pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.3966 	EXP 	window1: recordFrameIntervals = False
+12.5628 	EXP 	window1: recordFrameIntervals = True
+12.7460 	EXP 	window1: recordFrameIntervals = False
+12.8460 	EXP 	Created Instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='Instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+12.8568 	EXP 	Created Cont = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, name='Cont', opacity=1.0, ori=0, pos=array([ 0. , -0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Please press a button  to continue.', units=u'norm', win=Window(...), wrapWidth=1)
+12.9160 	EXP 	Created Instrucciones = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, name='Instrucciones', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+12.9201 	EXP 	Created LongMouth = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='caras\\long_mouth.bmp', interpolate=True, mask=None, maskParams=None, name='LongMouth', opacity=1.0, ori=0.0, pos=array([-0.5, -0.6]), size=array([ 0.13333333,  0.23703704]), texRes=128, units=u'norm', win=Window(...))
+12.9225 	EXP 	Created SmallMouth = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='caras\\short_mouth.bmp', interpolate=True, mask=None, maskParams=None, name='SmallMouth', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.6]), size=array([ 0.13333333,  0.23703704]), texRes=128, units=u'norm', win=Window(...))
+12.9299 	EXP 	Created BigM = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1, italic=False, name='BigM', opacity=1.0, ori=0, pos=array([-10.,  -9.]), rgb=array([ 255.,  255.,  255.]), text=u"Big Mouth 'v'", units='cm', win=Window(...), wrapWidth=15.0)
+12.9410 	EXP 	Created LittleM = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.09, italic=False, name='LittleM', opacity=1.0, ori=0, pos=array([ 0.5, -0.8]), rgb=array([ 255.,  255.,  255.]), text=u"Little Mouth 'm'", units=u'norm', win=Window(...), wrapWidth=1)
+12.9486 	EXP 	Created Continue = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, name='Continue', opacity=1.0, ori=0, pos=array([ 0. , -0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Please press a button  to continue.', units=u'norm', win=Window(...), wrapWidth=1)
+13.0156 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+13.0187 	EXP 	Created crosshair = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='crosshair', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+13.0211 	EXP 	Created Eyes_nose_only = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='caras\\eyes_nose_only.bmp', interpolate=True, mask=None, maskParams=None, name='Eyes_nose_only', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.13333333,  0.23703704]), texRes=128, units=u'norm', win=Window(...))
+13.0237 	EXP 	Created Stimulis = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Stimulis', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+13.0259 	EXP 	Created Eyes_nose_only2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='caras\\eyes_nose_only.bmp', interpolate=True, mask=None, maskParams=None, name='Eyes_nose_only2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.13333333,  0.23703704]), texRes=128, units=u'norm', win=Window(...))
+13.0303 	EXP 	Created feedback_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='feedback_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+13.0458 	EXP 	Instructions: autoDraw = True
+13.0458 	EXP 	Cont: autoDraw = True
+17.7458 	DATA 	Keypress: lwindows
+17.7623 	EXP 	Instructions: autoDraw = False
+17.7623 	EXP 	Cont: autoDraw = False
+17.7623 	EXP 	Instrucciones: autoDraw = True
+17.7623 	EXP 	LongMouth: autoDraw = True
+17.7623 	EXP 	SmallMouth: autoDraw = True
+17.7623 	EXP 	BigM: autoDraw = True
+17.7623 	EXP 	LittleM: autoDraw = True
+17.7623 	EXP 	Continue: autoDraw = True
+25.2329 	DATA 	Mouse: Left button down, pos=(975,367)
+25.3531 	DATA 	Mouse:  Left button up, pos=(975,367)
+28.4454 	DATA 	Keypress: right
+28.4618 	EXP 	Instrucciones: autoDraw = False
+28.4618 	EXP 	LongMouth: autoDraw = False
+28.4618 	EXP 	SmallMouth: autoDraw = False
+28.4618 	EXP 	BigM: autoDraw = False
+28.4618 	EXP 	LittleM: autoDraw = False
+28.4618 	EXP 	Continue: autoDraw = False
+28.4618 	EXP 	text_2: autoDraw = True
+31.8790 	DATA 	Keypress: v
+31.8843 	EXP 	Imported SIGDETExample.xlsx as conditions, 2 conditions, 3 params
+31.8846 	EXP 	Created sequence: random, trialTypes=2, nReps=2, seed=None
+31.8849 	EXP 	New trial (rep=0, index=0): {u'corAns': u'm', u'Stim': u'caras\\short_mouth.bmp', u'Feedback': None}
+31.8951 	EXP 	text_2: autoDraw = False
+31.8951 	EXP 	Stimulis: size = array([ 0.13333333,  0.23703704])
+31.8951 	EXP 	Stimulis: image = u'caras\\short_mouth.bmp'
+31.8951 	EXP 	crosshair: autoDraw = True
+32.8951 	EXP 	crosshair: autoDraw = False
+32.9122 	EXP 	Eyes_nose_only: autoDraw = True
+33.3286 	DATA 	Keypress: m
+33.3950 	EXP 	Eyes_nose_only: autoDraw = False
+33.4117 	EXP 	Stimulis: autoDraw = True
+33.4951 	EXP 	Stimulis: autoDraw = False
+34.3117 	EXP 	Eyes_nose_only2: autoDraw = True
+35.7791 	EXP 	New trial (rep=0, index=1): {u'corAns': u'v', u'Stim': u'caras\\long_mouth.bmp', u'Feedback': None}
+35.7950 	EXP 	Eyes_nose_only2: autoDraw = False
+35.7950 	EXP 	crosshair: autoDraw = False
+35.7950 	EXP 	Eyes_nose_only: autoDraw = False
+35.7950 	EXP 	Stimulis: autoDraw = False
+35.7950 	EXP 	Eyes_nose_only2: autoDraw = False
+35.7950 	EXP 	Stimulis: size = array([ 0.13333333,  0.23703704])
+35.7950 	EXP 	Stimulis: image = u'caras\\long_mouth.bmp'
+35.7950 	EXP 	crosshair: autoDraw = True
+36.7950 	EXP 	crosshair: autoDraw = False
+36.8116 	EXP 	Eyes_nose_only: autoDraw = True
+37.2949 	EXP 	Eyes_nose_only: autoDraw = False
+37.3116 	EXP 	Stimulis: autoDraw = True
+37.3949 	EXP 	Stimulis: autoDraw = False
+37.6451 	DATA 	Keypress: v
+37.6459 	EXP 	New trial (rep=1, index=0): {u'corAns': u'v', u'Stim': u'caras\\long_mouth.bmp', u'Feedback': None}
+37.6616 	EXP 	crosshair: autoDraw = False
+37.6616 	EXP 	Eyes_nose_only: autoDraw = False
+37.6616 	EXP 	Stimulis: autoDraw = False
+37.6616 	EXP 	Eyes_nose_only2: autoDraw = False
+37.6616 	EXP 	Stimulis: size = array([ 0.13333333,  0.23703704])
+37.6616 	EXP 	Stimulis: image = u'caras\\long_mouth.bmp'
+37.6616 	EXP 	crosshair: autoDraw = True
+38.6615 	EXP 	crosshair: autoDraw = False
+38.6782 	EXP 	Eyes_nose_only: autoDraw = True
+39.1615 	EXP 	Eyes_nose_only: autoDraw = False
+39.1782 	EXP 	Stimulis: autoDraw = True
+39.2615 	EXP 	Stimulis: autoDraw = False
+39.4284 	DATA 	Keypress: m
+39.4291 	EXP 	New trial (rep=1, index=1): {u'corAns': u'm', u'Stim': u'caras\\short_mouth.bmp', u'Feedback': None}
+39.4449 	EXP 	crosshair: autoDraw = False
+39.4449 	EXP 	Eyes_nose_only: autoDraw = False
+39.4449 	EXP 	Stimulis: autoDraw = False
+39.4449 	EXP 	Eyes_nose_only2: autoDraw = False
+39.4449 	EXP 	Stimulis: size = array([ 0.13333333,  0.23703704])
+39.4449 	EXP 	Stimulis: image = u'caras\\short_mouth.bmp'
+39.4449 	EXP 	crosshair: autoDraw = True
+40.4448 	EXP 	crosshair: autoDraw = False
+40.4615 	EXP 	Eyes_nose_only: autoDraw = True
+40.9448 	EXP 	Eyes_nose_only: autoDraw = False
+40.9615 	EXP 	Stimulis: autoDraw = True
+41.0448 	EXP 	Stimulis: autoDraw = False
+41.2616 	DATA 	Keypress: m
+41.2948 	EXP 	crosshair: autoDraw = False
+41.2948 	EXP 	Eyes_nose_only: autoDraw = False
+41.2948 	EXP 	Stimulis: autoDraw = False
+41.2948 	EXP 	Eyes_nose_only2: autoDraw = False
+41.2948 	EXP 	feedback_text: text = 'Thanks for participating - that took 0.47 minutes in total'
+41.2948 	EXP 	feedback_text: autoDraw = True
+44.2754 	EXP 	window1: mouseVisible = True
