@@ -1,0 +1,4 @@
+cara,corrAns,practice.thisRepN,practice.thisTrialN,practice.thisN,practice.thisIndex,resp.keys,resp.corr,resp.rt,date,frameRate,expName,session,participant,
+caras/long_mouth.bmp,v,0,0,0,1,m,0,3.33339010438,2016_Nov_22_0215,60.0034641926,stroop,01,erick,
+caras/short_mouth.bmp,m,0,1,1,0,v,0,0.366852311214,2016_Nov_22_0215,60.0034641926,stroop,01,erick,
+caras/short_mouth.bmp,m,1,0,2,0,v,0,0.250203189062,2016_Nov_22_0215,60.0034641926,stroop,01,erick,

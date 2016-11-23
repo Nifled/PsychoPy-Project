@@ -1,0 +1,7 @@
+cara,corrAns,practice.thisRepN,practice.thisTrialN,practice.thisN,practice.thisIndex,key_resp_2.keys,key_resp_2.rt,ready1.keys,ready1.rt,resp.keys,resp.corr,resp.rt,date,frameRate,expName,session,participant,
+,,,,,,right,1.38347147621,,,,,,2016_Nov_22_2231,60.003117762,stroop,01,etaet,
+,,,,,,,,right,0.483475132671,,,,2016_Nov_22_2231,60.003117762,stroop,01,etaet,
+caras/short_mouth.bmp,m,0,0,0,0,,,,,m,1,5.78334529692,2016_Nov_22_2231,60.003117762,stroop,01,etaet,
+caras/long_mouth.bmp,v,0,1,1,1,,,,,m,0,0.700548081251,2016_Nov_22_2231,60.003117762,stroop,01,etaet,
+caras/long_mouth.bmp,v,1,0,2,1,,,,,m,0,5.4166783737,2016_Nov_22_2231,60.003117762,stroop,01,etaet,
+caras/short_mouth.bmp,m,1,1,3,0,,,,,m,1,1.25016020989,2016_Nov_22_2231,60.003117762,stroop,01,etaet,
