@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy2 Experiment Builder (v1.84.2),
-    on November 22, 2016, at 23:14
+    on November 27, 2016, at 22:20
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -40,7 +40,7 @@ filename = _thisDir + os.sep + u'data' + os.sep + '%s_%s' % (expInfo['participan
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath=u'C:\\Users\\Erick\\Desktop\\stroopExtended\\sidget.psyexp',
+    originPath=u'H:\\Erick\\Documents\\Github\\proyecto-PsychoPy\\sidget.psyexp',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -130,13 +130,26 @@ text_2 = visual.TextStim(win=win, name='text_2',
 
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
+image_2 = visual.ImageStim(
+    win=win, name='image_2',
+    image='caras/eyes_nose_only.bmp', mask=None,
+    ori=0, pos=(-0.0081, -0.01), size=(0.5, 0.5),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
 image = visual.ImageStim(
     win=win, name='image',
     image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.5),
+    ori=0, pos=(-0.0081, -0.01), size=(0.5, 0.5),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-1.0)
+    texRes=128, interpolate=True, depth=-2.0)
+cruz = visual.TextStim(win=win, name='cruz',
+    text='+',
+    font='Arial',
+    pos=(0, 0), height=0.15, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1,
+    depth=-3.0);
 
 # Initialize components for Routine "feedback"
 feedbackClock = core.Clock()
@@ -178,13 +191,26 @@ text_4 = visual.TextStim(win=win, name='text_4',
 
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
+image_2 = visual.ImageStim(
+    win=win, name='image_2',
+    image='caras/eyes_nose_only.bmp', mask=None,
+    ori=0, pos=(-0.0081, -0.01), size=(0.5, 0.5),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
 image = visual.ImageStim(
     win=win, name='image',
     image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.5),
+    ori=0, pos=(-0.0081, -0.01), size=(0.5, 0.5),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-1.0)
+    texRes=128, interpolate=True, depth=-2.0)
+cruz = visual.TextStim(win=win, name='cruz',
+    text='+',
+    font='Arial',
+    pos=(0, 0), height=0.15, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1,
+    depth=-3.0);
 
 # Initialize components for Routine "feedback2"
 feedback2Clock = core.Clock()
@@ -547,7 +573,7 @@ for thisPractice in practice:
     resp = event.BuilderKeyResponse()
     image.setImage(cara)
     # keep track of which components have finished
-    trialComponents = [resp, image]
+    trialComponents = [image_2, resp, image, cruz]
     for thisComponent in trialComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
@@ -559,8 +585,15 @@ for thisPractice in practice:
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
+        # *image_2* updates
+        if t >= 0.5 and image_2.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            image_2.tStart = t
+            image_2.frameNStart = frameN  # exact frame index
+            image_2.setAutoDraw(True)
+        
         # *resp* updates
-        if t >= 0.5 and resp.status == NOT_STARTED:
+        if t >= 1.25 and resp.status == NOT_STARTED:
             # keep track of start time/frame for later
             resp.tStart = t
             resp.frameNStart = frameN  # exact frame index
@@ -586,11 +619,18 @@ for thisPractice in practice:
                 continueRoutine = False
         
         # *image* updates
-        if t >= 0.5 and image.status == NOT_STARTED:
+        if t >= 1.25 and image.status == NOT_STARTED:
             # keep track of start time/frame for later
             image.tStart = t
             image.frameNStart = frameN  # exact frame index
             image.setAutoDraw(True)
+        
+        # *cruz* updates
+        if t >= 0.0 and cruz.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            cruz.tStart = t
+            cruz.frameNStart = frameN  # exact frame index
+            cruz.setAutoDraw(True)
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
@@ -962,7 +1002,7 @@ for thisTrial in trials:
     resp = event.BuilderKeyResponse()
     image.setImage(cara)
     # keep track of which components have finished
-    trialComponents = [resp, image]
+    trialComponents = [image_2, resp, image, cruz]
     for thisComponent in trialComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
@@ -974,8 +1014,15 @@ for thisTrial in trials:
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
+        # *image_2* updates
+        if t >= 0.5 and image_2.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            image_2.tStart = t
+            image_2.frameNStart = frameN  # exact frame index
+            image_2.setAutoDraw(True)
+        
         # *resp* updates
-        if t >= 0.5 and resp.status == NOT_STARTED:
+        if t >= 1.25 and resp.status == NOT_STARTED:
             # keep track of start time/frame for later
             resp.tStart = t
             resp.frameNStart = frameN  # exact frame index
@@ -1001,11 +1048,18 @@ for thisTrial in trials:
                 continueRoutine = False
         
         # *image* updates
-        if t >= 0.5 and image.status == NOT_STARTED:
+        if t >= 1.25 and image.status == NOT_STARTED:
             # keep track of start time/frame for later
             image.tStart = t
             image.frameNStart = frameN  # exact frame index
             image.setAutoDraw(True)
+        
+        # *cruz* updates
+        if t >= 0.0 and cruz.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            cruz.tStart = t
+            cruz.frameNStart = frameN  # exact frame index
+            cruz.setAutoDraw(True)
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
